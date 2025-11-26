@@ -1,5 +1,5 @@
 import './css/style.css';
-import './js/game.js';
+import { startGame, stopGame } from './js/game.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   startGame();
